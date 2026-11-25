@@ -4,7 +4,8 @@
   "description": "A movie watch list: add films, mark them as watched, rate them and sort them.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "seed": "node seed.js"
   },
   "license": "MIT",
   "dependencies": {
