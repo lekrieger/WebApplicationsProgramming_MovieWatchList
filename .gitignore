@@ -2,6 +2,7 @@
 node_modules/
 
 # SQLite database (recreated by the seed script)
+data/
 *.db
 *.sqlite
 *.sqlite3
