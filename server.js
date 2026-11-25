@@ -2,6 +2,9 @@
 const express = require('express');
 const path = require('path');
 
+// Loading db.js opens the database and creates the films table.
+require('./db');
+
 const app = express();
 
 // Render sets PORT when hosting; locally we fall back to 3000.
