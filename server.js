@@ -1,5 +1,6 @@
 // Express server for the Movie Watch List.
 const express = require('express');
+const path = require('path');
 
 const app = express();
 
