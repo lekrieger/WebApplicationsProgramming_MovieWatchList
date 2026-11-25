@@ -6,9 +6,8 @@ const app = express();
 // Render sets PORT when hosting; locally we fall back to 3000.
 const PORT = process.env.PORT || 3000;
 
-app.get('/', (req, res) => {
-  res.send('Hello');
-});
+// Serve static HTML, CSS, and JS files from the public folder.
+app.use(express.static('public'))
 
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
