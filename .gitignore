@@ -1,0 +1,18 @@
+# Dependencies (recreated with npm install)
+node_modules/
+
+# SQLite database (recreated by the seed script)
+*.db
+*.sqlite
+*.sqlite3
+
+# Secrets and local settings
+.env
+.claude/settings.local.json
+
+# Logs and system files
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.vscode/
