@@ -1,0 +1,13 @@
+{
+  "name": "movie-watchlist",
+  "version": "1.0.0",
+  "description": "A movie watch list: add films, mark them as watched, rate them and sort them.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
