@@ -13,6 +13,9 @@ const PORT = process.env.PORT || 3000;
 // Serve static HTML, CSS, and JS files from the public folder.
 app.use(express.static(path.join(__dirname, 'public')));
 
+// All film endpoints live under /api/films.
+app.use('/api/films', require('./routes/films'));
+
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
 });
